@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chetan Rugi | Data Science Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#020617,#0f172a);
+color:white;
+}
+
+nav{
+position:fixed;
+width:100%;
+top:0;
+padding:20px 10%;
+display:flex;
+justify-content:space-between;
+background:rgba(0,0,0,0.4);
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+nav h2{
+color:#38bdf8;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+transition:.3s;
+}
+
+nav ul li a:hover{
+color:#38bdf8;
+}
+
+section{
+padding:100px 10%;
+}
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+}
+
+.hero h1{
+font-size:48px;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.hero p{
+margin-top:20px;
+color:#cbd5e1;
+line-height:1.6;
+max-width:600px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#38bdf8;
+color:black;
+text-decoration:none;
+border-radius:8px;
+font-weight:600;
+margin-right:10px;
+}
+
+.section-title{
+font-size:32px;
+margin-bottom:30px;
+color:#38bdf8;
+}
+
+.skills-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+
+.skill-card{
+background:#020617;
+padding:20px;
+border-radius:12px;
+border:1px solid #1e293b;
+text-align:center;
+}
+
+.projects-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.project-card{
+background:#020617;
+padding:25px;
+border-radius:15px;
+border:1px solid #1e293b;
+}
+
+.project-card h3{
+color:#38bdf8;
+margin-bottom:10px;
+}
+
+.contact-box{
+background:#020617;
+padding:30px;
+border-radius:15px;
+border:1px solid #1e293b;
+}
+
+footer{
+text-align:center;
+padding:30px;
+color:#94a3b8;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav>
+<h2>Chetan Rugi</h2>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+
+<!-- ================= HERO SECTION ================= -->
+<section class="hero" id="home">
+<div>
+
+<h1>Hi I'm <span>Chetan Rugi</span></h1>
+
+<p>
+<!-- WRITE YOUR SHORT INTRO HERE -->
+Aspiring Data Scientist passionate about Machine Learning and building intelligent applications.
+</p>
+
+<!-- GITHUB LINK -->
+<a href="https://github.com/chetan3622" class="btn">GitHub</a>
+
+<!-- EMAIL BUTTON -->
+<a href="mailto:chetanrugi819@gmail.com" class="btn">Email Me</a>
+
+<!-- ADD RESUME FILE NAME BELOW -->
+<!-- Example: resume.pdf -->
+<a href="resume.pdf" class="btn" download>Download Resume</a>
+
+</div>
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+<section id="about">
+<h2 class="section-title">About Me</h2>
+
+<p>
+<!-- WRITE ABOUT YOURSELF HERE -->
+I am a Data Science student skilled in Python, Machine Learning, Data Analysis and dashboard building.
+</p>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+<section id="skills">
+<h2 class="section-title">Skills</h2>
+
+<div class="skills-grid">
+
+<!-- EDIT SKILLS HERE -->
+<div class="skill-card">Python</div>
+<div class="skill-card">Machine Learning</div>
+<div class="skill-card">Data Analysis</div>
+<div class="skill-card">Pandas</div>
+<div class="skill-card">NumPy</div>
+<div class="skill-card">Scikit-learn</div>
+<div class="skill-card">Power BI</div>
+<div class="skill-card">SQL</div>
+<div class="skill-card">Streamlit</div>
+
+</div>
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects">
+<h2 class="section-title">Projects</h2>
+
+<div class="projects-grid">
+
+
+<!-- PROJECT 1 -->
+<div class="project-card">
+<h3>Project Name</h3>
+<p>Write project description</p>
+<a href="#" class="btn">GitHub</a>
+</div>
+
+
+<!-- PROJECT 2 -->
+<div class="project-card">
+<h3>Project Name</h3>
+<p>Write project description</p>
+<a href="#" class="btn">GitHub</a>
+</div>
+
+
+<!-- PROJECT 3 -->
+<div class="project-card">
+<h3>Project Name</h3>
+<p>Write project description</p>
+<a href="#" class="btn">GitHub</a>
+</div>
+
+
+<!-- ADD MORE PROJECTS BELOW COPYING ABOVE BLOCK -->
+
+
+</div>
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+<h2 class="section-title">Contact</h2>
+
+<div class="contact-box">
+
+<p><strong>Name:</strong> Chetan Rugi</p>
+
+<p><strong>Role:</strong> Data Science</p>
+
+<p><strong>Email:</strong> chetanrugi819@gmail.com</p>
+
+<!-- ADD LINKEDIN BELOW -->
+<p><strong>LinkedIn:</strong> Add here</p>
+
+<!-- GITHUB -->
+<p><strong>GitHub:</strong> https://github.com/chetan3622</p>
+
+</div>
+</section>
+
+
+<footer>
+© 2026 Chetan Rugi | Data Science Portfolio
+</footer>
+
+</body>
+</html>
